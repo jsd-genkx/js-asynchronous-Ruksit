@@ -24,3 +24,5 @@ export const fetchPostsAsync = async () => {
 };
 
 // fetchPostsAsync();
+
+// export { fetchPostsAsync };
