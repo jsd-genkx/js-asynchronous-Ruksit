@@ -10,7 +10,9 @@ TODO-01: Create a function named fetchPostsThen
 TODO-02: Export fetchPostsThen and test it in main.js
 */
 
-const fetchPostsThen = () => {
+
+
+export const fetchPostsThen = () => {
   const endpoint = "https://dummyjson.com/posts";
 
   fetch(endpoint)
@@ -28,4 +30,6 @@ const fetchPostsThen = () => {
     });
 };
 
-fetchPostsThen();
+// fetchPostsThen();
+
+// export { fetchPostsThen };
